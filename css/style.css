@@ -48,6 +48,7 @@ h4 {
 
     font-weight: 300;
     font-size: 13px;
+    opacity: 0.6;
     line-height: 100%;
 }
 
@@ -70,6 +71,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
+    opacity: 0.6;
     line-height: 100%;
 
     margin-top: 12px;
