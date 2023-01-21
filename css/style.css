@@ -20,7 +20,7 @@ body {
     display: none;
 }
 
-#imagem {
+#imagem, #sofa-animated {
     position: relative;
     width: 460px;
     height: 300px;
@@ -98,4 +98,22 @@ p {
 .add:hover {
     background-color: #271A45;
     color: white;
+}
+
+/* Botao 360 graus */
+#imagem button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Animacao do produto */
+html.animated #btn_360,
+html.animated #sofa-static{
+    display: none;
+}
+
+html.animated #btn_x,
+html.animated #sofa-animated{
+    display: initial;
 }
